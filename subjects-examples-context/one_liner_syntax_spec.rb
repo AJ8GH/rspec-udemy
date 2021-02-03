@@ -11,3 +11,6 @@ describe 'shorthand syntax' do
     it { is_expected.to eq 5 }
   end
 end
+
+# only works with subject - is expected refers to subject (implicit or explicit)
+# doesn't work with `let`s
